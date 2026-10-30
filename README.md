@@ -1,0 +1,1 @@
+Ceo subsitem, drajveri za vesc su modifikovani tako da su umesto mavlinka okrenuti ka cajfelu. OVa verzija sa MULTI u imenu je ta koja se spusta, osim toga dati su i gnd i sky gwovi. Ovaj cetvrti fajl obican MotorDrajver bez multi je develop verzija, koja moze da okrece samo jedan motor
