@@ -1,0 +1,41 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "Debug (ULINK2)",
+			"type": "cortex-debug",
+			"request": "launch",
+			"servertype": "openocd",
+			"cwd": "${workspaceFolder}",
+			"device": "LPC1768",
+			"configFiles": ["${workspaceFolder}/devices/lpc1768/tools/openocd.cfg"],
+			"executable": "${workspaceFolder}/build/program.elf",
+			"svdFile": "${workspaceFolder}/devices/lpc1768/tools/LPC1768.svd",
+			"runToEntryPoint": "main",
+			"interface": "swd",
+			"showDevDebugOutput": "raw",
+			"liveWatch": {
+				"enabled": true,
+				"samplesPerSecond": 2
+			}
+		},
+		{
+			"name": "Debug (JLink)",
+			"type": "cortex-debug",
+			"request": "launch",
+			"servertype": "jlink",
+			"cwd": "${workspaceFolder}",
+			"device": "LPC1768",
+			"executable": "build/program.elf",
+			"svdFile": "${workspaceFolder}/devices/lpc1768/tools/LPC1768.svd",
+			"runToEntryPoint": "main",
+			"interface": "swd",
+			"showDevDebugOutput": "raw",
+			"liveWatch": {
+				"enabled": true,
+				"samplesPerSecond": 2
+			}
+		}
+
+	]
+}

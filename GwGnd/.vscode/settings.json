@@ -1,0 +1,24 @@
+{
+    "files.associations": {
+        "common.h": "c",
+        "freertos.h": "c",
+        "*.in": "c",
+        "array": "c",
+        "string": "c",
+        "string_view": "c",
+        "task_work.h": "c",
+        "task_mav.h": "c",
+        "uart_tl.h": "c",
+        "dev_config.h": "c",
+        "numeric": "c",
+        "iostream": "c",
+        "istream": "c",
+        "ostream": "c",
+        "system_error": "c",
+        "typeinfo": "c",
+        "mavlink_msg_lisum_power_motor_vesc_data.h": "c",
+        "mav.h": "c",
+        "mavlink_msg_lisum_power_motor_data.h": "c"
+    },
+    "C_Cpp.errorSquiggles": "disabled"
+}

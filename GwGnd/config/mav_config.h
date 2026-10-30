@@ -1,0 +1,9 @@
+#ifndef MAV_CONFIG_H
+#define MAV_CONFIG_H
+
+#define MAV_MAX_LINK_CNT 2
+#define MAV_MAX_TRACK_CNT 60
+
+#define MAVLINK_MAX_SIGNING_STREAMS 16
+
+#endif /* MAV_CONFIG_H */
